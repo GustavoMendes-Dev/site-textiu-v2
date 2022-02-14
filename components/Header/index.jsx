@@ -38,7 +38,7 @@ export default function Header() {
           <Navbar.Collapse className="justify-content-end">
             <Nav className="">
               <Nav.Link href="/">Entrar</Nav.Link>
-              <a href="/" className="highlight__button">Junte-se à Textiu.</a>
+              <Nav.Link href="/" className="highlight__button">Junte-se à Textiu.</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
