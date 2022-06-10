@@ -45,7 +45,7 @@ header {
   line-height: 38px;
   letter-spacing: -0.01em;
   font-family: "Public Sans", "Open Sans", sans-serif;
-  color: #0e0e2c;
+  color: #232f3e;
 }
 
 .content__container {
@@ -199,13 +199,224 @@ header {
 
 .icons__container .icon__title h2 {
   font-family: "Public Sans", "Open Sans", sans-serif;
-  color: #0e0e2c;
+  color: #232f3e;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: -0.01em;
   text-align: center;
   min-height: 39px;
 }
+
+/* Plans */
+
+.plans__container {
+  padding: 40px 0;
+}
+
+.plans__container .plans__heading {
+  text-align: center;
+}
+
+.plans__container .plans__row {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.plans__container .plans__heading p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  color: #666e79;
+  margin-top: 14px;
+}
+
+.plans__container .plans__heading h2 {
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  color: #232f3e;
+  font-size: 30px;
+  line-height: 32.25px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0;
+  padding: 0;
+}
+
+.plans__container .plans__row .plan__block:nth-child(1) {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.plans__container .plans__row .plan__block {
+  border: 1px solid #dce1e8;
+  border-radius: 10px;
+  height: 418px;
+  margin-top: 14px;
+  background-color: #fff;
+}
+
+.plans__container .plans__row .plan__block .plan__content {
+  padding: 40px 18px 33px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.plans__container .plans__row .plan__block .plan__content h2 {
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  color: #232f3e;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  padding: 0;
+  margin: 0;
+}
+
+.plans__container .plans__row .plan__block .plan__heading {
+  text-align: center;
+  padding: 16px 0;
+  color: #dce1e8;
+  font-size: 16px;
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  font-weight: normal;
+  letter-spacing: -0.01em;
+}
+
+.plans__container .plans__row .plan__block .plan__content p {
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #666e79;
+  padding-top: 10px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.plans__container .plans__row .plan__block .plan__content a {
+  cursor: default;
+  background: #fff;
+  border: 1px solid #dce1e8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 11px 19px;
+  color: #dce1e8;
+  text-decoration: none;
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  margin-top: 160px;
+  align-self: center;
+}
+
+.plans__container .plans__row .plan__block-highlight {
+  border: 1px solid #232f3e;
+  border-radius: 10px;
+  height: 496px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__heading {
+  text-align: center;
+  background-color: #232f3e;
+  width: 100%;
+  padding: 16px 0;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content {
+  padding: 40px 18px 33px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content h2 {
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  color: #232f3e;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  padding: 0;
+  margin: 0;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content p {
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #666e79;
+  padding: 10px 30px 0;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content p strong {
+  color: #232f3e;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content ul {
+  text-align: left;
+  padding-left: 79px;
+  margin-top: 30px;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content ul li {
+  list-style: none;
+  margin-bottom: 8px;
+  color: #666e79;
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  display: flex;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content ul li::before {
+  /* content: url('https://contasimples.com/assets/images/icon-big/check-icon.svg'); */
+  padding-right: 19.63px;
+}
+
+.plans__container .plans__row .plan__block:last-child {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.plans__container .plans__row .plan__block {
+  border: 1px solid #dce1e8;
+  border-radius: 10px;
+  height: 418px;
+  margin-top: 14px;
+  background-color: #fff;
+}
+
+.plans__container .plans__row .plan__block-highlight .plan__content a {
+  background-color: #e15500;
+  border-radius: 5px;
+  align-self: center;
+  padding: 10px 24px;
+  font-family: "Public Sans", "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 35px;
+}
+
+/* Features */
+
+
+
+
+
 
 
 @media (min-width: 978px){

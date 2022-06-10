@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import img_section from '../assets/images/final_4_2.png'
 import CategoriesContent from '../components/Categories'
 import { ArrowRight } from '../components/Icons'
+import Plans from '../components/Plans'
 
 export default function Home() {
   return (
@@ -16,8 +17,8 @@ export default function Home() {
           <div className="content__container">
             <Row>
               <Col lg={6}>
-                <h1>A plataforma que reúne profissionais do setor têxtil à melhores oportunidades do mercado.</h1>
-                <p>Unimos pequenas, médias e grandes empresas, indústrias, prestadores de serviços e fornecedores do mercado têxtil. Tudo em um só lugar. </p>
+                <h1>O sistema ERP para pequenas e médias indústrias do setor têxtil.</h1>
+                <p>Simples e segura para controlar o financeiro, produção e atendimento, 100% online. </p>
                 <div className="content__buttons col-lg-12">
                   <a href="https://onboarding.textiu.com.br/">JUNTE-SE À TEXTIU</a>
                 </div>
@@ -52,6 +53,7 @@ export default function Home() {
           </Row>
         </Container>
       </div>
+      <Plans/>
       
       <footer>
         © 2022 textiu.

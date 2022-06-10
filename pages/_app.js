@@ -1,8 +1,11 @@
 import '../styles/globals.css'
 import Head from 'next/head';
 
+// import { AppProvider } from '../providers/AppContext';
+
 function MyApp({ Component, pageProps }) {
   return (
+    // <AppProvider>
     <>
       <Head>
         <title>Textiu | A plataforma que reúne profissionais do setor têxtil à melhores oportunidades do mercado.</title>
@@ -12,6 +15,7 @@ function MyApp({ Component, pageProps }) {
     
       <Component {...pageProps} />
     </>
+    // </AppProvider>
     )
 }
 
